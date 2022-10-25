@@ -45,11 +45,11 @@ const Home: React.FC = () => {
     })
   }
 
-  const orderNow = () => {
+  const placeOrder = () => {
     present({
         color: 'dark',
-        position: 'top',
-        message: 'Order clicked',
+        position: 'bottom',
+        message: 'Order placed!',
         duration: 2000            
     });
   }
@@ -88,7 +88,7 @@ const Home: React.FC = () => {
           </IonListHeader>
           {displayToppings()}
         </IonList>
-        <IonButton onClick={ orderNow } expand="block" color="danger">Order Now</IonButton>
+        <IonButton onClick={ placeOrder } expand="block" color="success">Place Order</IonButton>
       </IonContent>
     </IonPage>
   )
