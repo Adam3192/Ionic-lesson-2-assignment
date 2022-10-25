@@ -30,3 +30,9 @@
 h1 {
  text-align: center;
 }
+
+ion-checkbox {
+ --size: 32px;
+ --background-checked: #2dd36f;
+ --border-color-checked: #2dd36f;
+}
